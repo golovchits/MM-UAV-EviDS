@@ -1,0 +1,33 @@
+# Pretrained model weights — link to original authors' Drive in README
+/pretrained/*
+
+# Checkpoint files inside YOLOX_outputs (track_results_*/ txt files are kept)
+YOLOX_outputs/**/*.pth.tar
+YOLOX_outputs/**/*.pth
+YOLOX_outputs/**/events.out.tfevents*
+YOLOX_outputs/**/train_log.txt
+# Corrupted/failed training run dirs
+YOLOX_outputs/*_corrupted/
+
+# Crop finetune checkpoints
+e3_finetune_results/**/checkpoint.pt
+
+# Analysis outputs (deferred — verify before publishing)
+YOLOX_outputs/**/temperature.json
+e3_crop_control_v2/
+e3_finetune_results/**/*.json
+tables/
+tools/e3_analysis/
+
+/runs/
+/build
+/.idea/
+*.pyc
+/tools/private
+wandb/
+*egg-info*
+fast_reid/datasets/MOT17-ReID
+*/__pycache__
+*.so
+
+.DS_Store
