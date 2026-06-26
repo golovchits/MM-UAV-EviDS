@@ -1,11 +1,12 @@
 # Pretrained model weights — link to original authors' Drive in README
 /pretrained/*
 
-# Checkpoint files inside YOLOX_outputs (track_results_*/ txt files are kept)
+# Checkpoint files and tracker outputs inside YOLOX_outputs
 YOLOX_outputs/**/*.pth.tar
 YOLOX_outputs/**/*.pth
 YOLOX_outputs/**/events.out.tfevents*
 YOLOX_outputs/**/train_log.txt
+YOLOX_outputs/**/track_results_*/
 # Corrupted/failed training run dirs
 YOLOX_outputs/*_corrupted/
 

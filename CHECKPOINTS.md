@@ -14,7 +14,7 @@ Download from the [MM-UAV authors' Google Drive](https://drive.google.com/drive/
 
 ## EviDS checkpoints (conditions c/d/e — this work)
 
-**Download:** [Google Drive — link to be added]
+**Download:** [Google Drive](https://drive.google.com/drive/folders/1WNrKHYwXNDiX4JuhEb1rKxSO24fy-KWJ?usp=sharing)
 
 | Condition | Directory |
 |-----------|-----------|
